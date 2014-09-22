@@ -113,7 +113,7 @@ class TCPNumberServer(SocketServer.ThreadingTCPServer):
         self.increment = Increment(0)
         self.allow_reuse_address = True
         self.daemon_threads = True
-        SocketServer.TCPServer.__init__(self, server_address, handler_class)
+        SocketServer.ThreadingTCPServer.__init__(self, server_address, handler_class)
 
 
 class IntHandler():
