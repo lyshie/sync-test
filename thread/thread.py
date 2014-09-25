@@ -1,6 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+#=========================================================================
+#
+#         FILE: thread.py
+#
+#        USAGE: ./thread.py
+#
+#  DESCRIPTION: Multi-thread synchronization
+#
+#      OPTIONS: ---
+# REQUIREMENTS: ---
+#         BUGS: ---
+#        NOTES: ---
+#       AUTHOR: SHIE, Li-Yi (lyshie), lyshie@mx.nthu.edu.tw
+# ORGANIZATION:
+#      VERSION: 1.0
+#      CREATED: 2014-09-25 16:03:30
+#     REVISION: ---
+#=========================================================================
+
 import sys
 import threading
 import random
